@@ -1,0 +1,84 @@
+.formWrapper {
+  /* padding: ; */
+
+  /* width: 80%; */
+}
+.hello {
+  font-size: 15px;
+  font-size: bold;
+  margin: 10px 0px 30px 0px;
+}
+
+input {
+  border: 1px solid rgba(194, 192, 201, 0.527);
+  padding: 14px;
+  width: 330px;
+  color: #1a0dab;
+  font-size: 14px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  margin-bottom: 30px;
+}
+
+.names {
+  font-size: 14px;
+  color: rgba(194, 192, 201, 1);
+}
+
+.eyeIcon {
+  position: absolute;
+  top: 23px;
+  right: -10px;
+  cursor: pointer;
+}
+
+.passwordWrap {
+  position: relative;
+  width: 330px;
+}
+
+input:focus {
+}
+
+.termsWrap {
+  display: flex;
+  flex-direction: row;
+  width: 360px;
+  font-size: 14px;
+  color: rgb(41, 36, 58);
+}
+
+.termsWrap div {
+  line-height: 20px;
+}
+
+input[type='checkbox'] {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+button:disabled,
+.disabledButton {
+  color: #1a0dab;
+  background-color: rgba(26, 13, 171, 0.1);
+  /* width: 100%; */
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  font-size: bold;
+  cursor: not-allowed;
+}
+
+button,
+.button {
+  background-color: #1a0dab;
+  color: #ffffff;
+  width: 358px;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  font-size: bold;
+}
